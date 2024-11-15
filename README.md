@@ -28,7 +28,7 @@ coding_challenge
 
 1. **Repository klonen:**
    ```bash
-   git clone https://github.com/Duewiger/ai_coding_challenge.git
+   git clone https://github.com/Duewiger/coding_challenge.git
    cd coding_challenge
    ```
 
