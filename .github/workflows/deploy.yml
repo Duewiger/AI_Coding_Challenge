@@ -1,4 +1,4 @@
-name: Generate .env
+name: Build and Publish Docker Image
 
 on:
   push:
@@ -18,13 +18,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y docker-compose
 
-      - name: Create .env file
+      - name: Build Docker Image with API Key
         run: |
-          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" > .env
+          docker build . -t my-app:latest --build-arg OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
 
-      - name: Run Docker Compose
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: Save Docker Image to file (optional, for publishing)
         run: |
-          docker-compose down
-          docker-compose up --build -d
+          docker save my-app:latest > my-app.tar
