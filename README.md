@@ -68,12 +68,24 @@ coding_challenge
 
 ### 2. Docker-Ausführung
 
-1. **Docker-Container erstellen und starten:**
+1. **Umgebungsvariablen einrichten:**
+   Erstelle eine `.env`-Datei mit folgendem Inhalt:
+   ```env
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+
+   #####
+   Der API-Key wird über folgenden Link temporär von mir freigestellt: 
+
+   https://send.bitwarden.com/#i3oqTVupIU6KjLIqAUAnpA/DaNaSUrwRWk9yeuiVnJ-kA
+   #####
+
+2. **Docker-Container erstellen und starten:**
    ```bash
    docker-compose up --build
    ```
 
-2. **Mit dem Tool im Terminal interagieren.**
+3. **Mit dem Tool im Terminal interagieren.**
 
 ---
 
