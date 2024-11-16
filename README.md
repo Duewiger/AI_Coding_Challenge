@@ -108,6 +108,6 @@ Die XBO 4000 W/HS XL OFR wiegt 1.022,90 g.
 
 ## Support
 
-Falls Ihr Fragen habt ruft mich gerne auch einfach an: +49 (0) 172 - 745 2773
+Falls Ihr Fragen habt ruft mich gerne auch einfach an: +49 (0) 172 - 745 27 73
 
 Oder schreibt mir per mail unter: kd@duewiger.com 
