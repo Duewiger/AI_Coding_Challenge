@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+      "outDir": "static/dist",
+      "strict": true
+    },
+    "exclude": ["static/dist"]
+  }  
