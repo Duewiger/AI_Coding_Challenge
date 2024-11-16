@@ -3,6 +3,7 @@
 Ein einfaches Tool zur Suche in PDF-Dokumenten unter Verwendung eines Language Models (LLM). Dieses Projekt ermöglicht es, Benutzeranfragen basierend auf PDF-Inhalten zu beantworten. Es wurde als Teil einer Coding Challenge entwickelt.
 
 ## Anforderungen
+- Python 3.11
 - OpenAI API-Schlüssel
 
 # Chatbot mit PDF-Suche

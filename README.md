@@ -22,7 +22,7 @@ coding_challenge
 ```
 
 ## Anforderungen
-
+- Python 3.11
 - OpenAI API-Schlüssel (Alternativ stelle ich auch gerne temporär meinen Key bereit)
 
 ## Installation
