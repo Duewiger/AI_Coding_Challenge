@@ -2,9 +2,12 @@
 
 Ein einfaches Tool zur Suche in PDF-Dokumenten unter Verwendung eines Language Models (LLM). Dieses Projekt ermöglicht es, Benutzeranfragen basierend auf PDF-Inhalten zu beantworten. Es wurde als Teil einer Coding Challenge entwickelt.
 
-### 
+Gerne kann auch mittels Frontend im Browser mit der Anwendung interagiert und die Fragen gestellt werden.
+
+=>
+---
 Für die Ausführung der Anwendung im Browser, einfach in den Folder 'optional_gui_chatbot' wechseln und der beigefügten README.md folgen
-###
+---
 
 ## Projektstruktur
 
@@ -85,8 +88,14 @@ coding_challenge
    docker-compose up --build
    ```
 
-3. **Mit dem Tool im Terminal interagieren.**
+3. **Mit dem Tool interagieren.**
 
+   Sollte die main.py nicht direkt ausgeführt werden.
+
+   Im Split-Terminal aufrufen:
+   ```bash
+   python main.py
+   ```
 ---
 
 ## Verwendung
