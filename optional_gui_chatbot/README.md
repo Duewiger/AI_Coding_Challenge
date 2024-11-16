@@ -4,7 +4,7 @@ Ein einfaches Tool zur Suche in PDF-Dokumenten unter Verwendung eines Language M
 
 ## Anforderungen
 - Python 3.11
-- OpenAI API-Schlüssel
+- OpenAI API-Schlüssel (Wichtig, API-Key wird temporär über Link bereitgestellt, siehe unten)
 
 # Chatbot mit PDF-Suche
 
@@ -18,17 +18,29 @@ Ein einfaches Tool zur Beantwortung von Fragen basierend auf zusätzlich hinzuge
    cd coding_challenge/optional_gui_chatbot
    ```
 
-2. Starte die Anwendung mit Docker Compose:
+2. **Umgebungsvariablen einrichten:**
+   Erstelle eine `.env`-Datei mit folgendem Inhalt:
+   ```env
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+
+   #####
+   Der API-Key wird über folgenden Link temporär von mir freigestellt: 
+
+   https://send.bitwarden.com/#i3oqTVupIU6KjLIqAUAnpA/DaNaSUrwRWk9yeuiVnJ-kA
+   #####
+
+3. Starte die Anwendung mit Docker Compose:
    ```bash
    docker-compose up --build
    ```
 
-3. Öffne im Browser:
+4. Öffne im Browser:
 
-http://127.0.0.1:8000
+   http://127.0.0.1:8000
 
 
-3. Die Weboberfläche ist nun vollständig einsatzbereit!
+5. Die Weboberfläche ist nun vollständig einsatzbereit!
 
 
 ## Verwendung

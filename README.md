@@ -23,7 +23,7 @@ coding_challenge
 
 ## Anforderungen
 - Python 3.11
-- OpenAI API-Schlüssel (Alternativ stelle ich auch gerne temporär meinen Key bereit)
+- OpenAI API-Schlüssel (Wichtig, API-Key wird temporär über Link bereitgestellt, siehe unten)
 
 ## Installation
 
@@ -52,6 +52,12 @@ coding_challenge
    ```env
    OPENAI_API_KEY=your_openai_api_key_here
    ```
+
+   #####
+   Der API-Key wird über folgenden Link temporär von mir freigestellt: 
+
+   https://send.bitwarden.com/#i3oqTVupIU6KjLIqAUAnpA/DaNaSUrwRWk9yeuiVnJ-kA
+   #####
 
 5. **Tool starten:**
    ```bash
